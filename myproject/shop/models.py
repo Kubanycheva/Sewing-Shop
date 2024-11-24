@@ -38,6 +38,4 @@ class CompanyPhotos(models.Model):
     company = models.ForeignKey(Company, related_name='company', on_delete=models.CASCADE)
     image = models.ImageField(upload_to='company_images/')
 
-asdfghjk
-
 
